@@ -8,7 +8,7 @@
     "url": "https://github.com/angular/material2.git"
   },
   "scripts": {
-    "postinstall": "ngc -p angular.tsconfig.json",
+    "postinstall": "npm run ngc -p angular.tsconfig.json",
     "build": "gulp :publish:build-releases",
     "demo-app": "gulp serve:devapp",
     "test": "gulp test",
